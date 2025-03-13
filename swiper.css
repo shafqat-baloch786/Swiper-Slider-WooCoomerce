@@ -1,0 +1,43 @@
+
+/* Swiper slider */
+.woo-product-slider {
+    position: relative;
+    margin: 0 auto;
+}
+
+.swiper-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.swiper-thumbs {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.swiper-thumbs .swiper-slide {
+    opacity: 1;
+    cursor: pointer;
+    margin-right: 5px; 
+}
+
+.swiper-thumbs .swiper-slide:last-child {
+    margin-right: 0;
+}
+
+.swiper-thumbs .swiper-slide-thumb-active {
+    opacity: 0.5; 
+}
